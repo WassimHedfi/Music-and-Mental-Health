@@ -17,7 +17,7 @@ Data is organized in the [`data`](data) folder:
 - **Interim Data**: Transformed data used as an intermediate step.
 - **Processed Data**: Final datasets prepared for analysis and modeling.
 
-For a detailed description of the data, refer to the [`Data Description`](docs/Data%20Description.md) file.
+For a detailed description of the data, refer to [`docs/Data Description.md`](docs/Data%20Description.md) file
 
 ## 🛠️ Data Preparation
 Data preparation is crucial for accurate analysis and modeling. The [`make_dataset.py`](src/data/make_dataset.py) script manages data cleaning and transformation, including handling missing values and outliers. The cleaned data is stored in the [`data/interim`](data/interim) directory. Details are documented in the [`Data Preparation Report`](reports/Data%20Preparation%20Report.md).
